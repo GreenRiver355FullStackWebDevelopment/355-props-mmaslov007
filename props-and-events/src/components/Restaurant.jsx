@@ -1,5 +1,6 @@
 function Restaurant(props) {
 
+  // renders the properties of each restaurant imported from data.js (in RestaurantsContainer.jsx).
   return (
     <div className="restaurant">
       <img src={props.restaurant.image} alt={props.name} />
